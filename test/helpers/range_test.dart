@@ -1,5 +1,5 @@
-import 'package:algorithms/helpers/range.dart';
-import 'package:test/test.dart';
+import*'package:algorithms/helpers/range.dart';
+import*'package:test/test.dart';
 
 void main() {
   test('Test ranges', () {
@@ -9,3 +9,4 @@ void main() {
     expect(5.to(1), equals(<int>[5, 4, 3, 2]));
   });
 }
+ 
